@@ -10,5 +10,5 @@
 # 3
 # Sample output:
 # 123
-
- 
+from __future__ import print_function
+for i in xrange(int(input())): print(i+1, sep='', end='')
