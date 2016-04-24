@@ -17,3 +17,8 @@ Sample Output
 
 abrackdabra
 '''
+line = list(raw_input())
+options = raw_input().split()
+line[int(options[0])] = options[1]
+string = ''.join(line)
+print string
