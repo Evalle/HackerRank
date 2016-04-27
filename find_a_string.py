@@ -19,4 +19,10 @@ CDC
 Sample Output
 2
 '''
-
+haystack = raw_input()
+needle = raw_input()
+count = 0
+for i in range(0,len(haystack)-len(needle)+1):
+    if needle == haystack[i:i+len(needle)]:
+        count += 1    
+print count
